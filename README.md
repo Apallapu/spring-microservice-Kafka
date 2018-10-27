@@ -82,6 +82,7 @@ Creating topics
     3. Again open a new command prompt in the same location as  C:\softwares\kafka_2.11-2.0.0\bin\windows
     
     4. Now start a consumer by typing the following command:
+    
     Example:
     =======
     C:\softwares\kafka_2.11-2.0.0\bin\windows>kafka-console-consumer.bat -bootstrap-server localhost:2181 -topic userRequestKafka
@@ -91,7 +92,8 @@ Step6:
 Checking messages in Apache Kafka
 
 Example:
-............
+===========
+
 C:\softwares\kafka_2.11-2.0.0\bin\windows>kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic userRequestKafka --from-beginning
 
 example:
