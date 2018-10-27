@@ -78,14 +78,16 @@ Creating topics
    Example:
    =======
     C:\softwares\kafka_2.11-2.0.0\bin\windows>kafka-console-producer.bat --broker-list localhost:9092 --topic userRequestKafka
-    3. Again open a new command prompt in the same location as C:\kafka_2.11-0.9.0.0\bin\windows
+    
+    3. Again open a new command prompt in the same location as  C:\softwares\kafka_2.11-2.0.0\bin\windows
+    
     4. Now start a consumer by typing the following command:
     Example:
     =======
     C:\softwares\kafka_2.11-2.0.0\bin\windows>kafka-console-consumer.bat -bootstrap-server localhost:2181 -topic userRequestKafka
     
 Step6:
-..........
+===========
 Checking messages in Apache Kafka
 
 Example:
