@@ -52,7 +52,7 @@ public class UserService {
 		return userClient.getUserList();
 	}
 
-	public void createUsersForActiveMq(UserRequest userRequest) {
+	public void createUsersForKafka(UserRequest userRequest) {
 		
 		KafkaTemplate.send(topicName, userRequest);
 

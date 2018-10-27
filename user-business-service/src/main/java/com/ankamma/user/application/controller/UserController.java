@@ -59,9 +59,9 @@ public class UserController {
 	public List<UserList> getUserList() {
 		return userService.getUserList();
 	}
-	@PostMapping(path = "/post-activeMq-user", consumes = "application/json", produces = "application/json")
-	public void createUsersForActiveMq(@RequestBody UserRequest UserRequest) {
-		 userService.createUsersForActiveMq(UserRequest);
+	@PostMapping(path = "/post-kafka-user", consumes = "application/json", produces = "application/json")
+	public void createUsersForKafka(@RequestBody UserRequest UserRequest) {
+		 userService.createUsersForKafka(UserRequest);
 
 	}
 
