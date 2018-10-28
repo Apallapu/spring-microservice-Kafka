@@ -31,7 +31,7 @@ public class KafkaProducerConfig {
 	}
 
 	@Bean
-	public KafkaTemplate<String, UserRequest> greetingKafkaTemplate() {
+	public KafkaTemplate<String, UserRequest> userRequestKafkaTemplate() {
 		return new KafkaTemplate<>(userRequestProducerFactory());
 	}
 

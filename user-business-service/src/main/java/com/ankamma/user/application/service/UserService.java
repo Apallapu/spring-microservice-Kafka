@@ -23,7 +23,7 @@ public class UserService {
 	UserClient userClient;
 
 	@Autowired
-	UserServiceListener userServiceListener;
+	UserServiceKafkaListener userServiceListener;
 
 	@Autowired
 	private KafkaTemplate<String, UserRequest> KafkaTemplate;
