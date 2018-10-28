@@ -8,17 +8,17 @@ step1:
 =========
 Zookeeper Installation
 =========================
-1. Goto your Zookeeper config directory. For me its C:\zookeeper-3.4.7\conf
+1. Goto your Zookeeper config directory. For me its C:\softwares\zookeeper-3.4.9\conf
 
 2. Rename file “zoo_sample.cfg” to “zoo.cfg”
 
 3. Open zoo.cfg in any text editor like notepad but I prefer notepad++.
 
-4. Find & edit dataDir=/tmp/zookeeper to :\zookeeper-3.4.7\data
+4. Find & edit dataDir=/tmp/zookeeper to :\zookeeper-3.4.9\data
 
 5. Add entry in System Environment Variables as we did for Java
 
-    a. Add in System Variables ZOOKEEPER_HOME = C:\zookeeper-3.4.7
+    a. Add in System Variables ZOOKEEPER_HOME = C:\softwares\zookeeper-3.4.9
 
     b. Edit System Variable named “Path” add ;%ZOOKEEPER_HOME%\bin;
 
@@ -32,7 +32,7 @@ step2:
 =======
 Downloading and Instal the Apache Kafka
 =======================================
-1. Go to your Kafka config directory. For me its C:\kafka_2.11-0.9.0.0\config
+1. Go to your Kafka config directory. For me its C:\softwares\kafka_2.11-2.0.0\config
 
 2. Edit file “server.properties”
 
@@ -46,7 +46,7 @@ Step3:
 =======
 Running Kafka Server
 ====================
-1. Go to your Kafka installation directory C:\kafka_2.11-0.9.0.0\
+1. Go to your Kafka installation directory C:\softwares\kafka_2.11-2.0.0\
 
 2. Open a command prompt here by pressing Shift + right click and choose“Open command window here” option)
 
@@ -89,7 +89,9 @@ Creating topics
     
 Step6:
 ===========
-Checking messages in Apache Kafka
+After hiting micro service,http://localhost:5002/user-api/post-kafka-user
+
+Check the messages in Apache Kafka.
 
 Example:
 ===========
